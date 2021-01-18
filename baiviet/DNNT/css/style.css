@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-image: url(/baiviet/DNNT/img/nen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .bgimg{
+   height: 80vh;
+   display: flex;
+   align-items: center;
+ }
+
+ .item {
+     margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 22px 15px;
+
+ }
+.item .number{
+    font-size: 50px;
+}
+.title {
+}
+
+
+h1.text-center {
+    color: yellow;
+    font-size: 80px;
+}
+
+.slogan {
+    font-size: 35px;
+    color: yellow;
+    font-style: italic;
+}

@@ -1,0 +1,73 @@
+
+@media (max-width: 575.98px) { 
+.dau nav{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.tuanca a{
+    font-size: 40px;
+}
+.khungtrong{
+    width: 100%;
+    font-size: 60%;
+}
+.xinchao {
+    color: black;
+    /* width: 530px; */
+    padding: 40px 30px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.dau nav{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.khungtrong{
+    width: 100%;
+}
+.xinchao {
+    color: black;
+    width: 900px;
+    padding: 80px 50px;
+}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.dau nav{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.khungtrong{
+    width: 100%;
+}
+.xinchao{
+    color: black;
+    padding: 50px 85px;
+
+}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.dau nav{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.khungtrong{
+    width: 100%;
+}
+.hang1{
+    background-position: 0px -110px;
+}
+.xinchao{
+    color: black;
+    padding: 50px 209px;
+
+}
+ }
+@media (min-width: 1200px) { 
+.hang1{
+    background-position: 0px -230px;
+}
+ }

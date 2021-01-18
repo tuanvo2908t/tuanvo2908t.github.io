@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<title>Tuấn Ca|Happy New Year 2021</title>
+<link href="img/icontansuu.png" rel="shortcut icon" type="">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reponsite.css">
+<style>
+ 
+</style>
+<body>
+    <div class="bgimg">
+
+
+        <div class="container">
+            <div>
+                <h1 class="text-center">Chỉ còn...</h1>
+                <br />
+
+            </div>
+
+            <div class="row">
+                <div class="col l-3 m-3 sm-3 ">
+                    <div class="item">
+                        <div class="number" id="ngay"></div>
+                        <div class="title">Ngày</div>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-3">
+                    <div class="item">
+                        <div class="number" id="gio"></div>
+                        <div class="title">Giờ</div>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-3">
+                    <div class="item">
+                        <div class="number" id="phut"></div>
+                        <div class="title">Phút</div>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-3">
+                    <div class="item">
+                        <div class="number" id="giay"></div>
+                        <div class="title">Giây</div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="text-center">
+                <p class="slogan">Là đến tếttttt!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Feb 12, 2021 0:0:0").getTime();
+
+        // Update the count down every 1 second
+        var countdownfunction = setInterval(function () {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+            document.getElementById("ngay").innerHTML = days;
+            document.getElementById("gio").innerHTML = hours;
+            document.getElementById("phut").innerHTML = minutes;
+            document.getElementById("giay").innerHTML = seconds;
+
+            // If the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+</body>
+<audio autoplay Loop>
+    <source src="audio/nhacxuan.mp3" type="audio/mpeg">
+</audio>
+</html>
