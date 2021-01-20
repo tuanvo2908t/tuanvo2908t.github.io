@@ -10,12 +10,28 @@
 }
 .khungtrong{
     width: 100%;
-    font-size: 60%;
+
+}
+.khungtrong p{
+    font-size: 50%;
+}
+.khungtrong H1{
+    font-size: 70%;
 }
 .xinchao {
     color: black;
     /* width: 530px; */
     padding: 40px 30px;
+}
+.hang1{
+    height: 195px;
+}
+.img_baiviet {
+    width: 200px;
+    height: 150px;
+}
+.hangcuoi p{
+    padding: 3px;
 }
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -32,7 +48,7 @@
     width: 900px;
     padding: 80px 50px;
 }
- }
+}
 @media (min-width: 768px) and (max-width: 991.98px) { 
 .dau nav{
     width: 90%;
@@ -47,6 +63,9 @@
     padding: 50px 85px;
 
 }
+.hang1{
+    background-position: 0px -73px;
+}
  }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .dau nav{
@@ -58,7 +77,7 @@
     width: 100%;
 }
 .hang1{
-    background-position: 0px -110px;
+    background-position: 0px -201px;
 }
 .xinchao{
     color: black;

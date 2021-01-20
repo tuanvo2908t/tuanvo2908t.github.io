@@ -3,14 +3,15 @@
     margin: 0;
 }
 .khung{
+    font-family: "Comfortaa";
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     width: Auto;
     height: auto;
     background-color: rgb(0 0 0 / 8%);
 }
 .khungtrong{
-    width: 1280px;
+    width: 1051px;
     margin: auto;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.301);
@@ -57,7 +58,7 @@
 }
 .than{
     width: 100%;
-    height: 3000px;
+    height: auto;
 }
 
 .hang1{
@@ -65,7 +66,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 295px;
     opacity: 0.9;
     filter: alpha(opacity=50);
     
@@ -80,29 +81,26 @@
 .hangLH{
     margin: auto;
     width: 100%;
-    height: 150px;
     font-weight: 200;
     font-size: 20px;
     background-color: rgb(49 48 48 / 38%);
 
 }
 .LH1{
-    width: 300px;
     float: right;
-    padding: 10px;
 }
 .hangcuoi{
     width: 100%;
-    height: 40px;
+    height: 18px;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 11px;
     text-align: center;
     color: white;
     background-color: #000000e0;
-    padding: 10px 0px;
+    padding: 2px 0px;
 }
 .share{
-    padding: 20px;
+    padding: 5px;
 }
 /* Không đc chạm vào phần trên */
 .hang2{
@@ -129,4 +127,9 @@
 .img_baiviet{
     width: 300px;
     height: 250px;
+}
+.GT1{
+    width: 85%;
+    margin: auto;
+    font-size: 20px;
 }
