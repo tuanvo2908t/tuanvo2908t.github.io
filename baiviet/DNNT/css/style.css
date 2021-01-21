@@ -30,8 +30,6 @@ body{
 }
 .title {
 }
-
-
 h1.text-center {
     color: yellow;
     font-size: 80px;
@@ -41,4 +39,8 @@ h1.text-center {
     font-size: 35px;
     color: yellow;
     font-style: italic;
+}
+.thoigian{
+   margin: auto; 
+   padding: 10px; 
 }

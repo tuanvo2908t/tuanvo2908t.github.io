@@ -1,9 +1,37 @@
 
-@media (max-width: 575.98px) { 
+@media (max-width: 369.9px){
 body{
   background-image: none;
-   background: black;
+   background: rgb(0, 0, 0);
+   
+}
+body p{
+  
+}
+.item .number {
+    font-size: 40px;
+}
+.item {
+  width: 130px;
+  height: 130px;
+}
+h1.text-center {
+    color: yellow;
+    font-size: 35px;
+    margin: -25px 11px;
+}
+.bgimg{
+  margin-top: 60px;
+}
+}
+@media(min-width: 370px) and (max-width: 575.98px) { 
+body{
+  background-image: none;
+   background: rgb(0, 0, 0);
 
+}
+.bgimg{
+  margin-top:50px;
 }
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
